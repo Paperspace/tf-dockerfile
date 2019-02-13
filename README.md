@@ -9,3 +9,5 @@ Building this container image and running in on a GPU is easy using Paperspace. 
 ```
 paperspace jobs create --useDockerfile true --buildOnly false  --command 'python /home/script.py' --apiKey XXXXXXXXXXXXXXXXXXX --workspace https://github.com/Paperspace/tf-dockerfile --machineType K80
 ```
+
+You can also view an example [public job]https://www.paperspace.com/console/jobs/jxnt5klyimt0b) and even clone it in your account.  Cloning will run the same CLI command included above. 
