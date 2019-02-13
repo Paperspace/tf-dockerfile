@@ -11,3 +11,6 @@ paperspace jobs create --useDockerfile true --buildOnly false  --command 'python
 ```
 
 You can also view a sample [public job](https://www.paperspace.com/console/jobs/jxnt5klyimt0b) and even clone it in your account.  Cloning will run the same CLI command included above. 
+
+### Additional job options 
+See [the docs](https://docs.paperspace.com/gradient/jobs/create-a-job#new-run-jobs-from-dockerfiles) for more options including pushing the built image to your own image repository. 
