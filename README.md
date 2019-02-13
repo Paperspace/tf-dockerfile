@@ -7,7 +7,5 @@ This repository contains a Dockerfile that contains all the dependencies needed 
 Building this container image and running in on a GPU is easy using Paperspace. Below is a Paperspace CLI command to run this TensorFlow model. Be sure to be using the [latest version](https://github.com/Paperspace/paperspace-node/releases) of the CLI for your OS. 
 
 ```
-paperspace jobs create --useDockerfile true --buildOnly false  --command 'python /home/script.py' 
-
---apiKey XXXXXXXXXXXXXXXXXXX --workspace https://github.com/Paperspace/tf-dockerfile --machineType K80
+paperspace jobs create --useDockerfile true --buildOnly false  --command 'python /home/script.py' --apiKey XXXXXXXXXXXXXXXXXXX --workspace https://github.com/Paperspace/tf-dockerfile --machineType K80
 ```
